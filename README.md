@@ -1,1 +1,1 @@
-# -maciej-tokarz-T-C-lab03-zadanie1
+# maciej-tokarz-T-C-lab03-zadanie1
