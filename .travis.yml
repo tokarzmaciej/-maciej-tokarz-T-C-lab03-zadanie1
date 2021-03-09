@@ -1,6 +1,8 @@
 services:
-  -docker
-  before installation:
-    -docker build -t servertest/latest .
-  scripts:
-    docker run servertest npm run test 
+  - docker
+
+before_install:
+  - docker build -t servertest/latest .
+
+script:
+  - docker run servertest/latest npm run test 
